@@ -37,5 +37,5 @@ Imputation Method
 "The Final Imputed Dataset benefits from kNN imputation, supplemented by interpolation to provide a seamless dataset that stands up to the rigorous demands of comparative international research. It has less columns and less countries to keep the integrity of the filled dataset."
 https://www.kaggle.com/datasets/samybaladram/databank-world-development-indicators
 
-In this project imputated data were used
+In this project imputated data were used.
 
