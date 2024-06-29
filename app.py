@@ -335,7 +335,7 @@ def updateScatter(drop_country, indicator):
     
     return fig
 
-#callback and function blockin sum option for indicators other than GDP and PopTotal:
+#callback and function blocking sum option for indicators other than GDP and PopTotal:
 @callback(
     Output('stat_type', 'options'),
     Output('stat_type', 'value'),
@@ -354,7 +354,6 @@ def update_stat_options(indicator, current_stat_value):
     return options, value
 
 
-#wykres słupkowy grupowany po regionie
 @callback(
     Output('region_bar', 'figure'),
     Input('stat_type', 'value'),
@@ -380,7 +379,6 @@ def update_region_bar(stat_type, year_slider, indicator):
     return fig
 
 
-#wykres słupkowy krajów:
 @callback(
     Output('country_bar', 'figure'),
     Input('region_bar', 'clickData'),
